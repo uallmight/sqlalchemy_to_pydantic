@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sqlalchemy-to-pydantic"
+version = "0.1.0"
+description = "Map between sqlalchemy and pydantic objects"
+authors = ["uallmight <cschoede@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sqlalchemy_to_pydantic"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy-ceodbc = "^0.1.0"
+pydantic = "^1.10.2"
+psycopg2 = "^2.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
