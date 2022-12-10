@@ -10,7 +10,6 @@ packages = [{include = "sqlalchemy_to_pydantic"}]
 python = "^3.11"
 sqlalchemy-ceodbc = "^0.1.0"
 pydantic = "^1.10.2"
-psycopg2 = "^2.9.5"
 
 
 [build-system]
